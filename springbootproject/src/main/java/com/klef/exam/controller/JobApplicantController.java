@@ -9,7 +9,7 @@ import com.klef.exam.entity.JobApplicant;
 import com.klef.exam.service.JobApplicantService;
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin(origins="*")
 @RequestMapping("/applicant")
 public class JobApplicantController {
 
